@@ -1,7 +1,7 @@
-# Navmesh AI Tutorial 11 - AI State Machines
-The below video is the tutorial that **ENDS** where this project is. If you would like to follow along, check out the [10. Flying Enemies!](https://github.com/llamacademy/ai-series-part-10) 
+# Navmesh AI Tutorial 13 - Procedural World Generation and NavMesh Generation at Runtime
+The below video is the tutorial that **ENDS** where this project is. In the tutorial I review how to construct pieces of level so feel free to follow along with this project.
 
-[![Youtube Tutorial](./Video%20Screenshot.png)](https://youtu.be/3hXkdARwREo&ref=github)
+[![Youtube Tutorial](./Video%20Screenshot.png)](https://youtu.be/QPv_V4TCi8o&ref=github)
 
 In this project we have:
 1. Simple click to move.
@@ -17,6 +17,7 @@ In this project we have:
 11. Improved ScriptableObject Configurations
 12. Flying Enemies
 13. State Machine AI with 3 options - idle, patrol, chase, including line of sight checking
+14. Procedurally generated world that can be navigated by NavMeshAgents
 
 ## Requirements
 * Requires Unity 2019.4 LTS or higher. 

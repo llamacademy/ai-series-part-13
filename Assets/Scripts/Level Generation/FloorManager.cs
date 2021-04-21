@@ -9,19 +9,17 @@ public class FloorManager : MonoBehaviour
     private Transform WorldGeometry;
     [SerializeField]
     private Transform Player;
-    [SerializeField]
-    private FloorSection[] FloorPrefabs;
+    public FloorSection[] FloorPrefabs;
     [SerializeField]
     [Range(3, 100)]
     private int TargetFloorSections = 3;
     private int HalfTargetFloorSections;
-    [SerializeField]
-    private int ActiveSection = 0;
+    public int ActiveSection = 0;
 
     private const int FloorSize = 10;
     private ObjectPool[] Pools;
     private NavMeshSurface[] Surfaces;
-    private Dictionary<int, FloorSection> ActiveFloorSections = new Dictionary<int, FloorSection>();
+    public Dictionary<int, FloorSection> ActiveFloorSections = new Dictionary<int, FloorSection>();
 
     private void Awake()
     {
